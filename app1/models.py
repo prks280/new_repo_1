@@ -14,3 +14,11 @@ class Father(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class GrandFather(models.Model):
+    name = models.CharField(max_length=20)
+    grandson_nominee = models.ForeignKey(Person, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
