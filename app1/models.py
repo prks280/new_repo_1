@@ -22,3 +22,10 @@ class GrandFather(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Class_A_master():
+    name = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.name
