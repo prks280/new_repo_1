@@ -29,3 +29,13 @@ class Class_A_master():
 
     def __str__(self):
         return self.name
+
+
+class Master_1:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    @staticmethod
+    def pri():
+        print('just static method')
