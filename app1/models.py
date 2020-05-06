@@ -39,3 +39,11 @@ class Master_1:
     @staticmethod
     def pri():
         print('just static method')
+
+class Branch1:
+    def test(self):
+        print('one of instance method')
+
+    @classmethod
+    def clss(cls):
+        print('used for class method')
